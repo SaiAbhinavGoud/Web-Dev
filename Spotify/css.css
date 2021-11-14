@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(41, 65, 171);
+    background-image: url('https://www-growth.scdn.co/static/home/bursts.svg');
+    background-size: 175%;
+    background-position: 46% 4%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 846px;
+    font-family: Roboto;
+}
+
+.logo {
+    position: absolute;
+}
+
+.logo img {
+    width: 11rem;
+    height: 4rem;
+    margin: 6px 165px;
+}
+
+.navbar {
+    display: inline-block;
+    background-color: black;
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+    height: 5em;
+    width: 94.9em;
+    text-align: right;
+}
+
+.navbar ul li {
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.navbar ul li a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 1.7rem 1rem;
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    color: #1ed760;
+}
+
+.h1-1 {
+    font-size: 145px;
+    color: #1ed760;
+    margin: 91px 250px;
+}
+
+.h1-2 {
+    font-size: 145px;
+    color: #1ed760;
+    margin: -134px 584px;
+}
+
+.btn {
+    color: #2941ab;
+    background-color: #1ed760;
+    font-size: 15px;
+    margin: 0rem 41rem;
+    width: 12rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    margin-top: 22px;
+    border: #1ed760;
+    /* border: 2px solid red; */
+}
+
+.describe-us {
+    color: #1ed760;
+    font-size: 18px;
+    margin: 163px 539px;
+}
