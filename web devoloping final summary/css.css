@@ -1,0 +1,97 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+    background: url(img/bg.jpg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.H1-3 {
+    margin: 47px;
+}
+
+.text {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px rgb(194, 94, 28), 0 0 30px rgb(185, 105, 13), 0 0 40px rgb(197, 176, 54);
+}
+
+
+/* section */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    height: 380px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    /* background-color: black; */
+}
+
+#services {
+    display: flex;
+    margin: 20px;
+    /* height: 9px; */
+}
+
+#services .box img {
+    height: 25rem;
+    margin: 3rem 0rem;
+    padding: 1rem 1rem;
+    display: block;
+    border-radius: 27px;
+    width: 90%;
+    box-shadow: rgb(255 255 255) 0px 0px 10px, rgb(194 94 28) 0px 0px 20px, rgb(185 105 13) 0px 0px 30px, rgb(197 176 54) 0px 0px 40px;
+}
+
+
+/* Solid border */
+
+.rounded {
+    border-top: 5px solid #bbb;
+    width: 50%;
+    margin: 2rem 30rem;
+    border-radius: 29px;
+}
+
+#services-container ul li a {
+    color: #ffcbad;
+    font-size: 44px;
+}
+
+.btn {
+    color: black;
+    background: blanchedalmond;
+    border-radius: 39px;
+    width: 30%;
+    height: 3rem;
+    border: none;
+}
+
+.btn a {
+    color: orange;
+    font-size: 22px;
+}
+
+.btn-diff {
+    color: black;
+    background: blanchedalmond;
+    border-radius: 39px;
+    width: 56%;
+    height: 3rem;
+    border: none;
+}
+
+.btn-diff a {
+    color: orange;
+    font-size: 22px;
+}

@@ -1,0 +1,120 @@
+    /* reset  */
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        background-color: yellow;
+        font-family: Roboto;
+    }
+    
+    .logo {
+        /* border: 2PX SOLID red; */
+        position: absolute;
+        margin: 0rem 0rem;
+        padding: 0rem 0rem;
+    }
+    
+    .logo img {
+        width: 14%;
+        margin: 0px 3rem;
+    }
+    
+    .navbar {
+        display: inline-block;
+        /* border: 2px solid red; */
+        width: 99%;
+        height: 3rem;
+        text-align: end;
+        font-size: 20px;
+    }
+    
+    .navbar ul li {
+        display: inline-block;
+        margin: 28px 18px;
+        padding: 5px 4px;
+    }
+    
+    .navbar ul li a {
+        color: rgb(39, 37, 37);
+    }
+    
+    .navbar ul li a:hover {
+        text-decoration: underline;
+        color: black;
+    }
+    
+    #btn {
+        background-color: black;
+        color: white;
+        width: 8%;
+        height: 3rem;
+        border-radius: 35px;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 18px;
+        border: none;
+    }
+    
+    #btn:hover {
+        border: none;
+        border-radius: 64px;
+        cursor: pointer;
+        line-height: 24px;
+        filter: drop-shadow(0em 0.4em 0.4em black);
+    }
+    
+    .body-text {
+        font-size: 72px;
+        position: relative;
+        margin: 0rem 0rem;
+        padding: 15rem 38rem;
+        text-align: center;
+        font-weight: 900;
+    }
+    
+    #fname {
+        position: absolute;
+        width: 14%;
+        height: 3.5rem;
+        border: none;
+        padding: 0rem 0rem;
+        margin: 7.4rem -30rem;
+        border-radius: 14px;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    #num-local {
+        position: absolute;
+        width: 8%;
+        height: 3.5rem;
+        border: none;
+        padding: 0rem 0rem;
+        margin: 7.34rem -40rem;
+        border-radius: 14px;
+        font-size: 20px;
+    }
+    
+    #send-link {
+        background-color: black;
+        position: absolute;
+        color: white;
+        width: 11%;
+        margin: -0.4px -13rem;
+        padding: 0rem 0rem;
+        height: 3.5rem;
+        border-radius: 16px;
+        border: none;
+        font-size: 19px;
+        top: 22.5rem;
+    }
+    
+    #send-link:hover {
+        filter: drop-shadow(0em 0.4em 0.4em black);
+        position: absolute;
+        cursor: pointer;
+        line-height: 24px;
+    }
