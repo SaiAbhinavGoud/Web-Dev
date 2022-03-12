@@ -1,6 +1,5 @@
 # Web-Dev
 
-# This web-dev has so many references available online so there no need to learn each bit of it. 
 
 Webpages Created Till now :-
 
