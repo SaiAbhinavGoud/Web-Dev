@@ -11,7 +11,7 @@ my first webpage
 2)
 # BOOK YOUR MEAL | SLOWDOWN.com 
 ![2](https://user-images.githubusercontent.com/90829704/140748434-b9480cbc-2ada-422c-a667-b664f0feecd7.png)
-HTML + CSS (but not responsive)
+HTML + CSS 
 
 3)
 # Travel Around | WorldRun.com
